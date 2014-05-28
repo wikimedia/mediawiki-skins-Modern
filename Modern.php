@@ -33,7 +33,7 @@ $dir = __DIR__;
 // Register files
 $wgAutoloadClasses['SkinModern'] = $dir . '/SkinModern.php';
 $wgAutoloadClasses['ModernTemplate'] = $dir . '/SkinModern.php';
-$wgMessagesDirs['CologneBlue'] = $dir . '/i18n';
+$wgMessagesDirs['Modern'] = $dir . '/i18n';
 
 // Register skin
 $wgValidSkinNames['modern'] = 'Modern';
