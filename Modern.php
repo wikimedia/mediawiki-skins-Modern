@@ -25,7 +25,6 @@ $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
 	'name' => 'SkinModern',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Modern',
-	'descriptionmsg' => 'modern-desc',
 );
 
 $dir = __DIR__;
