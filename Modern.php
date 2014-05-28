@@ -27,12 +27,10 @@ $wgExtensionCredits['skin'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Modern',
 );
 
-$dir = __DIR__;
-
 // Register files
-$wgAutoloadClasses['SkinModern'] = $dir . '/SkinModern.php';
-$wgAutoloadClasses['ModernTemplate'] = $dir . '/SkinModern.php';
-$wgMessagesDirs['Modern'] = $dir . '/i18n';
+$wgAutoloadClasses['SkinModern'] = __DIR__ . '/SkinModern.php';
+$wgAutoloadClasses['ModernTemplate'] = __DIR__ . '/SkinModern.php';
+$wgMessagesDirs['Modern'] = __DIR__ . '/i18n';
 
 // Register skin
 $wgValidSkinNames['modern'] = 'Modern';
@@ -44,5 +42,5 @@ $wgResourceModules['skins.modern'] = array(
 		'resources/print.css' => array( 'media' => 'print' ),
 	),
 	'remoteExtPath' => 'Modern',
-	'localBasePath' => $dir,
+	'localBasePath' => __DIR__,
 );
