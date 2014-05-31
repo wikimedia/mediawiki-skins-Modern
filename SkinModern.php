@@ -33,7 +33,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  */
 class SkinModern extends SkinTemplate {
 	public $skinname = 'modern';
-	public $stylename = 'modern';
 	public $template = 'ModernTemplate';
 	public $useHeadElement = true;
 
