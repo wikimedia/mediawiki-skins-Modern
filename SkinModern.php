@@ -34,7 +34,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 class SkinModern extends SkinTemplate {
 	public $skinname = 'modern';
 	public $template = 'ModernTemplate';
-	public $useHeadElement = true;
 
 	/**
 	 * @param OutputPage $out
