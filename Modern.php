@@ -23,8 +23,12 @@
 
 $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
-	'name' => 'SkinModern',
+	'name' => 'Modern',
+	'namemsg' => 'skinname-modern',
+	'descriptionmsg' => 'modern-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Modern',
+	'author' => array( 'River Tarnell', '...' ),
+	'license-name' => 'GPLv2+',
 );
 
 // Register files
