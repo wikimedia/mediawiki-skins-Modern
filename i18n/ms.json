@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"modern.css": "/* CSS yang terletak di sini akan mempengaruhi pengguna kulit Moden */",
+	"skinname-modern": "Moden"
+}
