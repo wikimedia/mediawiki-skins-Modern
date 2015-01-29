@@ -28,7 +28,7 @@ $wgExtensionCredits['skin'][] = array(
 	'descriptionmsg' => 'modern-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Modern',
 	'author' => array( 'River Tarnell', '...' ),
-	'license-name' => 'GPLv2+',
+	'license-name' => 'GPL-2.0+',
 );
 
 // Register files
