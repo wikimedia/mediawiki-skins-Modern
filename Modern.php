@@ -45,6 +45,6 @@ $wgResourceModules['skins.modern'] = array(
 		'resources/main.css' => array( 'media' => 'screen' ),
 		'resources/print.css' => array( 'media' => 'print' ),
 	),
-	'remoteBasePath' => $GLOBALS['wgStylePath'] . '/Modern',
+	'remoteSkinPath' => 'Modern',
 	'localBasePath' => __DIR__,
 );
