@@ -37,5 +37,6 @@
 	"AutoloadClasses": {
 		"SkinModern": "SkinModern.php",
 		"ModernTemplate": "SkinModern.php"
-	}
+	},
+	"manifest_version": 1
 }
