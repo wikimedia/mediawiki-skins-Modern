@@ -6,5 +6,5 @@
 	},
 	"modern.css": "/* Burada yerləşən CSS Modern skin istifadəçilərinə tətbiq olunur */",
 	"modern.js": "/* Burada Modern skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
-	"skinname-modern": "Modern"
+	"modern-skinname": "Modern"
 }

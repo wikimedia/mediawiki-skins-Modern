@@ -2,5 +2,5 @@
 	"@metadata": [],
 	"modern.css": "/* Мында орналастырылған CSS тек «Заманауи» (modern) мәнерін пайдаланушыларына ықпал етеді */",
 	"modern.js": "/* Мындағы JavaScript тек «Заманауи» (modern) мәнерін пайдаланушылар үшін жегіледі */",
-	"skinname-modern": "Заманауи (modern)"
+	"modern-skinname": "Заманауи (modern)"
 }

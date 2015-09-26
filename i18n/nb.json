@@ -2,6 +2,6 @@
 	"@metadata": [],
 	"modern.css": "/* CSS i denne fila vil gjelde alle som bruker drakta Modern */",
 	"modern.js": "/* Javascript i denne fila vil gjelde for brukere av drakta Modern */",
-	"skinname-modern": "Moderne",
+	"modern-skinname": "Moderne",
 	"modern-desc": "En blågrå drakt med sidestolpe og topplinje. Basert på MonoBook"
 }

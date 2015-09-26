@@ -9,6 +9,6 @@
 	},
 	"modern.css": "/* Tämä sivu sisältää Moderni-ulkoasua muuttavia tyylejä. */",
 	"modern.js": "/* Tämän sivun JavaScript-koodi liitetään Moderni-tyyliin */",
-	"skinname-modern": "Moderni",
+	"modern-skinname": "Moderni",
 	"modern-desc": "Siniharmaa teema sivu- ja yläpalkilla. Muunnettu MonoBookista"
 }
