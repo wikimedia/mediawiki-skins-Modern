@@ -7,5 +7,5 @@
 	},
 	"modern.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Modern skin */",
 	"modern.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Modern skin */",
-	"modern-skinname": "Moderna"
+	"skinname-modern": "Moderna"
 }

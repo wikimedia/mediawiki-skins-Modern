@@ -7,6 +7,6 @@
 	},
 	"modern.css": "/* Das folgende CSS wird für Benutzer der Modern-Benutzeroberfläche geladen. */",
 	"modern.js": "/* Das folgende JavaScript wird für Benutzer der Modern-Benutzeroberfläche geladen. */",
-	"modern-skinname": "Modern",
+	"skinname-modern": "Modern",
 	"modern-desc": "Stellt eine klassische Benutzeroberfläche bereit"
 }

@@ -6,7 +6,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Skin:Modern",
 	"descriptionmsg": "modern-desc",
-	"namemsg": "modern-skinname",
+	"namemsg": "skinname-modern",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"requires": {

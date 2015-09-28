@@ -6,5 +6,5 @@
 	},
 	"modern.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Moderný */",
 	"modern.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Moderný */",
-	"modern-skinname": "Moderný"
+	"skinname-modern": "Moderný"
 }
