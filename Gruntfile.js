@@ -12,14 +12,16 @@ module.exports = function ( grunt ) {
 			all: [
 				'**/*.json',
 				'.stylelintrc',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		stylelint: {
 			all: [
 				'**/*.css',
 				'**/*.less',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		}
 	} );
