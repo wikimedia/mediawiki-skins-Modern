@@ -39,7 +39,7 @@
 	},
 	"AutoloadClasses": {
 		"SkinModern": "SkinModern.php",
-		"ModernTemplate": "SkinModern.php"
+		"ModernTemplate": "ModernTemplate.php"
 	},
 	"ResourceModuleSkinStyles": {
 		"modern": {
