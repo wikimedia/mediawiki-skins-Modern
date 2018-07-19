@@ -349,6 +349,12 @@ a.new:visited {
 	color: #a55858;
 }
 
+a.mw-selflink {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: inherit;
+}
+
 h1,
 h2 {
 	border-bottom: solid 1px #036;
