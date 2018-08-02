@@ -124,6 +124,10 @@ body {
 
 	line-height: 1.5em;
 	padding: 0 1em 1em 1em;
+
+	/* Set a z-index for the content to group it away from any nav stuff (extensions) - T200148 */
+	position: relative;
+	z-index: 0;
 }
 
 #mw_portlets {
