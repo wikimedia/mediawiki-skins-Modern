@@ -57,8 +57,6 @@ class ModernTemplate extends BaseTemplate {
 						 for the margins -->
 					<div id="mw_contentholder" class="mw-body">
 						<div class='mw-topboxes'>
-							<div id="mw-js-message"
-								style="display:none;"<?php $this->html( 'userlangattributes' ) ?>></div>
 							<div class="mw-topbox" id="siteSub"><?php $this->msg( 'tagline' ) ?></div>
 							<?php
 							if ( $this->data['newtalk'] ) {
