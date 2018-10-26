@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Sp5uhe",
-			"Ty221"
+			"Ty221",
+			"Railfail536"
 		]
 	},
 	"modern.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Nowoczesna */",
 	"modern.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Nowoczesna */",
 	"skinname-modern": "Nowoczesna",
-	"modern-desc": "Niebieski/szary motyw z paskiem bocznym i górnym. Pochodzą z MonoBook."
+	"modern-desc": "Niebieska/szara skórka z paskiem bocznym i górnym. Pochodna skórki Książka"
 }
