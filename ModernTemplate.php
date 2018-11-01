@@ -32,7 +32,7 @@ class ModernTemplate extends BaseTemplate {
 	 * class, and a wrapper for MediaWiki's localization database, and
 	 * outputs a formatted page.
 	 */
-	function execute() {
+	public function execute() {
 		$this->html( 'headelement' );
 		?>
 
@@ -213,7 +213,7 @@ class ModernTemplate extends BaseTemplate {
 	/**
 	 * Prints the search
 	 */
-	function searchBox() {
+	private function searchBox() {
 		?>
 		<div id="p-search" class="portlet" role="search">
 			<h3><label for="searchInput"><?php $this->msg( 'search' ) ?></label></h3>
@@ -254,7 +254,7 @@ class ModernTemplate extends BaseTemplate {
 	/**
 	 * Prints the content actions (cactions) bar.
 	 */
-	function cactions() {
+	private function cactions() {
 		?>
 		<div id="p-cactions" class="portlet" role="navigation">
 			<h3><?php $this->msg( 'views' ) ?></h3>
@@ -276,7 +276,7 @@ class ModernTemplate extends BaseTemplate {
 	/**
 	 * Prints the toolbox
 	 */
-	function toolbox() {
+	private function toolbox() {
 		?>
 		<div class="portlet" id="p-tb" role="navigation">
 			<h3><?php $this->msg( 'toolbox' ) ?></h3>
@@ -306,7 +306,7 @@ class ModernTemplate extends BaseTemplate {
 	/**
 	 * Prints the other languages box
 	 */
-	function languageBox() {
+	private function languageBox() {
 		if ( $this->data['language_urls'] !== false ) {
 			?>
 			<div id="p-lang" class="portlet" role="navigation">
@@ -335,7 +335,7 @@ class ModernTemplate extends BaseTemplate {
 	 * @param string $bar
 	 * @param array|string $cont
 	 */
-	function customBox( $bar, $cont ) {
+	private function customBox( $bar, $cont ) {
 		$portletAttribs = [
 			'class' => 'generated-sidebar portlet',
 			'id' => Sanitizer::escapeId( "p-$bar" ),
