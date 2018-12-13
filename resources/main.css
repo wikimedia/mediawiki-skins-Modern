@@ -2,11 +2,9 @@ body {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	font-size: x-small;
-
 	font-family: sans-serif;
 	color: #000;
 	background-color: #f0f0f0;
-
 	direction: ltr;
 	unicode-bidi: embed;
 }
@@ -84,7 +82,6 @@ body {
 	height: 1.5em;
 	margin: 0 0 0 0;
 	vertical-align: middle;
-
 	font-weight: bold;
 	text-transform: lowercase;
 }
@@ -116,15 +113,12 @@ body {
 
 #mw_content {
 	margin: 0 0 0 14em;
-
 	background-color: #fff;
 	border-top: solid 1px #bbb;
 	border-left: solid 1px #bbb;
 	border-bottom: solid 1px #bbb;
-
 	line-height: 1.5em;
 	padding: 0 1em 1em 1em;
-
 	/* Set a z-index for the content to group it away from any nav stuff (extensions) - T200148 */
 	position: relative;
 	z-index: 0;
@@ -132,7 +126,6 @@ body {
 
 #mw_portlets {
 	width: 14em;
-
 	border-right: solid 1px #bbb;
 	background-color: #f0f0f0;
 }
@@ -379,79 +372,79 @@ h6 {
 	padding-right: 13px;
 }
 
-#mw_content a.external[href^='https://'],
+#mw_content a.external[ href^='https://' ],
 .link-https {
 	/* @embed */
 	background: url( images/lock_icon.gif ) center right no-repeat;
 	padding-right: 16px;
 }
 
-#mw_content a.external[href^='mailto:'],
+#mw_content a.external[ href^='mailto:' ],
 .link-mailto {
 	/* @embed */
 	background: url( images/mail_icon.gif ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[href^='news:'] {
+#mw_content a.external[ href^='news:' ] {
 	/* @embed */
 	background: url( images/news_icon.png ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[href^='ftp://'],
+#mw_content a.external[ href^='ftp://' ],
 .link-ftp {
 	/* @embed */
 	background: url( images/file_icon.gif ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[href^='irc://'],
-#mw_content a.external[href^='ircs://'],
+#mw_content a.external[ href^='irc://' ],
+#mw_content a.external[ href^='ircs://' ],
 .link-irc {
 	/* @embed */
 	background: url( images/discussionitem_icon.gif ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[href$='.ogg'],
-#mw_content a.external[href$='.OGG'],
-#mw_content a.external[href$='.mid'],
-#mw_content a.external[href$='.MID'],
-#mw_content a.external[href$='.midi'],
-#mw_content a.external[href$='.MIDI'],
-#mw_content a.external[href$='.mp3'],
-#mw_content a.external[href$='.MP3'],
-#mw_content a.external[href$='.wav'],
-#mw_content a.external[href$='.WAV'],
-#mw_content a.external[href$='.wma'],
-#mw_content a.external[href$='.WMA'],
+#mw_content a.external[ href$='.ogg' ],
+#mw_content a.external[ href$='.OGG' ],
+#mw_content a.external[ href$='.mid' ],
+#mw_content a.external[ href$='.MID' ],
+#mw_content a.external[ href$='.midi' ],
+#mw_content a.external[ href$='.MIDI' ],
+#mw_content a.external[ href$='.mp3' ],
+#mw_content a.external[ href$='.MP3' ],
+#mw_content a.external[ href$='.wav' ],
+#mw_content a.external[ href$='.WAV' ],
+#mw_content a.external[ href$='.wma' ],
+#mw_content a.external[ href$='.WMA' ],
 .link-audio {
 	/* @embed */
 	background: url( images/audio.png ) center right no-repeat;
 	padding-right: 13px;
 }
 
-#mw_content a.external[href$='.ogm'],
-#mw_content a.external[href$='.OGM'],
-#mw_content a.external[href$='.avi'],
-#mw_content a.external[href$='.AVI'],
-#mw_content a.external[href$='.mpeg'],
-#mw_content a.external[href$='.MPEG'],
-#mw_content a.external[href$='.mpg'],
-#mw_content a.external[href$='.MPG'],
+#mw_content a.external[ href$='.ogm' ],
+#mw_content a.external[ href$='.OGM' ],
+#mw_content a.external[ href$='.avi' ],
+#mw_content a.external[ href$='.AVI' ],
+#mw_content a.external[ href$='.mpeg' ],
+#mw_content a.external[ href$='.MPEG' ],
+#mw_content a.external[ href$='.mpg' ],
+#mw_content a.external[ href$='.MPG' ],
 .link-video {
 	/* @embed */
 	background: url( images/video.png ) center right no-repeat;
 	padding-right: 13px;
 }
 
-#mw_content a.external[href$='.pdf'],
-#mw_content a.external[href$='.PDF'],
-#mw_content a.external[href*='.pdf#'],
-#mw_content a.external[href*='.PDF#'],
-#mw_content a.external[href*='.pdf?'],
-#mw_content a.external[href*='.PDF?'],
+#mw_content a.external[ href$='.pdf' ],
+#mw_content a.external[ href$='.PDF' ],
+#mw_content a.external[ href*='.pdf#' ],
+#mw_content a.external[ href*='.PDF#' ],
+#mw_content a.external[ href*='.pdf?' ],
+#mw_content a.external[ href*='.PDF?' ],
 .link-document {
 	/* @embed */
 	background: url( images/document.png ) center right no-repeat;
