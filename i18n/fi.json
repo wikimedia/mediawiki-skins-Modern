@@ -4,11 +4,12 @@
 			"Nedergard",
 			"Nike",
 			"Str4nd",
-			"McSalama"
+			"McSalama",
+			"01miki10"
 		]
 	},
 	"modern.css": "/* Tämä sivu sisältää Moderni-ulkoasua muuttavia tyylejä. */",
 	"modern.js": "/* Tämän sivun JavaScript-koodi liitetään Moderni-tyyliin */",
 	"skinname-modern": "Moderni",
-	"modern-desc": "Siniharmaa teema sivu- ja yläpalkilla. Muunnettu MonoBookista"
+	"modern-desc": "Siniharmaa ulkoasu sivu- ja yläpalkilla. Muunnettu MonoBookista"
 }
