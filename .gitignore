@@ -19,7 +19,6 @@ sftp-config.json
 
 # Building & testing
 node_modules/
-/tests/phan/issues
 
 # Composer
 /vendor
