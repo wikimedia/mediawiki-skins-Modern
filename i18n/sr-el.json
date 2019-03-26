@@ -6,6 +6,6 @@
 	},
 	"modern.css": "/* CSS postavljen ovde će uticati na sve korisnike savremene teme */",
 	"modern.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste savremenu temu */",
-	"skinname-modern": "Savremena",
+	"skinname-modern": "Savremeno",
 	"modern-desc": "Plava/siva tema sa bočnom trakom i gornjom trakom. Izvedena iz Monobuka"
 }
