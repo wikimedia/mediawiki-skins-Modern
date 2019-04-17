@@ -785,6 +785,10 @@ li {
 	margin-bottom: 0.1em;
 }
 
+.mw-empty-elt {
+	display: none;
+}
+
 dt {
 	font-weight: bold;
 	margin-bottom: 0.1em;
