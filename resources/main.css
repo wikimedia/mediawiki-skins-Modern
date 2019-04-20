@@ -660,21 +660,6 @@ table.toc td {
 	padding: 0;
 }
 
-.editExternally {
-	border: 1px solid #808080;
-	background-color: #fff;
-	padding: 3px;
-	margin-top: 0.5em;
-	float: left;
-	font-size: small;
-	text-align: center;
-}
-
-.editExternallyHelp {
-	font-style: italic;
-	color: #808080;
-}
-
 .toggle {
 	margin-left: 2em;
 	text-indent: -2em;
