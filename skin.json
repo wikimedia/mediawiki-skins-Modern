@@ -22,7 +22,6 @@
 	},
 	"ResourceModules": {
 		"skins.modern": {
-			"position": "top",
 			"styles": {
 				"resources/main.css": {
 					"media": "screen"
