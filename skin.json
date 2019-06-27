@@ -43,7 +43,8 @@
 	"ResourceModuleSkinStyles": {
 		"modern": {
 			"+oojs-ui-core.styles": "skinStyles/ooui.less",
-			"+mediawiki.action.view.redirectPage": "skinStyles/mediawiki.action.view.redirectPage.css"
+			"+mediawiki.action.view.redirectPage": "skinStyles/mediawiki.action.view.redirectPage.css",
+			"+ext.echo.styles.badge": "skinStyles/ext.echo.styles.badge.css"
 		}
 	},
 	"manifest_version": 1
