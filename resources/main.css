@@ -648,9 +648,6 @@ table.toc td {
 }
 
 .previewnote {
-	text-indent: 3em;
-	color: #c00;
-	border-bottom: 1px solid #aaa;
 	padding-bottom: 1em;
 	margin-bottom: 1em;
 }
