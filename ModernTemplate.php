@@ -338,7 +338,7 @@ class ModernTemplate extends BaseTemplate {
 	private function customBox( $bar, $cont ) {
 		$portletAttribs = [
 			'class' => 'generated-sidebar portlet',
-			'id' => Sanitizer::escapeId( "p-$bar" ),
+			'id' => Sanitizer::escapeIdForAttribute( "p-$bar" ),
 			'role' => 'navigation'
 		];
 
