@@ -5,8 +5,8 @@
 			"Luky001"
 		]
 	},
+	"skinname-modern": "Moderný",
 	"modern.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Moderný */",
 	"modern.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Moderný */",
-	"skinname-modern": "Moderný",
 	"modern-desc": "Šedomodrý vzhľad s postranným a horným panelom. Odvodený od vzhľadu MonoBook"
 }

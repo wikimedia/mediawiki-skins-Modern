@@ -4,7 +4,7 @@
 			"AnakngAraw"
 		]
 	},
+	"skinname-modern": "Makabago (Moderno)",
 	"modern.css": "/* Ang CSS na iniligay dito ay makakaapekto sa tagagamit ng Makabagong (''Modern'') pabalat */",
-	"modern.js": "/* Ang anumang JavaScript dito ay ikakarga para sa mga tagagamit na gumagamit ng Modernong pabalat */",
-	"skinname-modern": "Makabago (Moderno)"
+	"modern.js": "/* Ang anumang JavaScript dito ay ikakarga para sa mga tagagamit na gumagamit ng Modernong pabalat */"
 }
