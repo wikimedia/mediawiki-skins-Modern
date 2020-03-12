@@ -22,6 +22,8 @@
 	},
 	"ResourceModules": {
 		"skins.modern": {
+			"class": "ResourceLoaderSkinModule",
+			"features": [ "legacy" ],
 			"styles": {
 				"resources/main.css": {
 					"media": "screen"
