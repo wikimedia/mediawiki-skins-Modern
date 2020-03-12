@@ -5,7 +5,7 @@
 		]
 	},
 	"skinname-modern": "Uudne",
-	"modern.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki uudse kujunduse kasutajaid. */",
+	"modern.css": "/* Siin asuv kaskaadilaadistik laaditakkse kõigi uudse kujunduse kasutajate jaoks. */",
 	"modern.js": "/* Siin asuv JavaScript laaditakse kõigi uudse kujunduse kasutajate jaoks. */",
 	"modern-desc": "Sinine ja hall kujundus külg- ja ülaribaga. Tuletatud MonoBookist."
 }
