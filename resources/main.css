@@ -860,11 +860,11 @@ pre,
  * left-floated objects in an RTL layout.
  */
 /* @noflip */
-html > body.rtl div#mw_contentholder ul {
+html > body.rtl .mw-body ul {
 	display: table;
 }
 
 /* @noflip */
-html > body.rtl div#mw_contentholder ul#filetoc {
+html > body.rtl .mw-body #filetoc {
 	display: block;
 }
