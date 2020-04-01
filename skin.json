@@ -14,11 +14,24 @@
 	},
 	"ValidSkinNames": {
 		"modern": {
-			"class": "SkinModern",
+			"class": "SkinMustache",
 			"args": [
 				{
 					"name": "modern",
-					"styles": [ "skins.modern" ]
+					"templateDirectory": "skins/Modern/templates/",
+					"scripts": [],
+					"styles": [ "skins.modern" ],
+					"messages": [
+						"navigation-heading",
+						"comma-separator",
+						"jumpto",
+						"jumptonavigation",
+						"jumptosearch",
+						"personaltools",
+						"powersearch-legend",
+						"tagline",
+						"views"
+					]
 				}
 			]
 		}
@@ -47,10 +60,6 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
 		"remoteSkinPath": "Modern"
-	},
-	"AutoloadClasses": {
-		"SkinModern": "SkinModern.php",
-		"ModernTemplate": "ModernTemplate.php"
 	},
 	"ResourceModuleSkinStyles": {
 		"modern": {

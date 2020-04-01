@@ -64,6 +64,7 @@ body {
 	font-variant: small-caps;
 }
 
+#p-personal #pt-anonuserpage,
 #p-personal h3 {
 	display: none;
 }
@@ -258,6 +259,7 @@ ul {
 	display: none;
 }
 
+#p-cactions #ca-view,
 #siteSub {
 	display: none;
 }
@@ -291,6 +293,10 @@ img {
 .mw-footer ul {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+}
+
+#footer-poweredbyico {
+	display: block;
 }
 
 p {
@@ -809,11 +815,13 @@ pre,
 	background: url( images/footer-grad.png ) repeat-x bottom left;
 }
 
+.usermessage p,
 .mw-topbox p {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 }
 
+.usermessage,
 .mw-topbox {
 	color: #000;
 	font-weight: bold;
