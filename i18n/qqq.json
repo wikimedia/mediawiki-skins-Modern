@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Raymond",
 			"Shirayuki",
-			"Umherirrender",
-			"Raymond"
+			"Umherirrender"
 		]
 	},
 	"skinname-modern": "{{name}}\n{{Identical|Modern}}",
