@@ -138,7 +138,7 @@ class ModernTemplate extends BaseTemplate {
 
 
 		<!-- footer -->
-		<div id="footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>
+		<div id="footer" class="mw-footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>
 			<ul id="f-list">
 				<?php
 				foreach ( $this->getFooterLinks( "flat" ) as $aLink ) {

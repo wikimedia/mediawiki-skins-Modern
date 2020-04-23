@@ -262,7 +262,7 @@ ul {
 	display: none;
 }
 
-#footer {
+.mw-footer {
 	/* @embed */
 	background: #f0f0f0 url( images/footer-grad.png ) repeat-x 0 0;
 	padding: 10px 1em 1em 1em;
@@ -270,9 +270,9 @@ ul {
 	color: #444;
 }
 
-#footer a,
-#footer a:hover,
-#footer a:visited {
+.mw-footer a,
+.mw-footer a:hover,
+.mw-footer a:visited {
 	color: #444;
 	text-decoration: underline;
 }
@@ -281,14 +281,14 @@ img {
 	border: 0;
 }
 
-#footer li {
+.mw-footer li {
 	display: inline;
 	list-style-type: none;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 }
 
-#footer ul {
+.mw-footer ul {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 }
