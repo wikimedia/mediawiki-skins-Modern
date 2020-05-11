@@ -49,5 +49,5 @@
 			"+ext.echo.styles.badge": "skinStyles/ext.echo.styles.badge.css"
 		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
