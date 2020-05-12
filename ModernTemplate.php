@@ -51,7 +51,7 @@ class ModernTemplate extends BaseTemplate {
 				<?php $this->cactions(); ?>
 
 				<!-- content -->
-				<div id="mw_content" role="main">
+				<div id="content" role="main">
 					<!-- contentholder does nothing by default, but it allows users to style the text inside
 						 the content area without affecting the meaning of 'em' in #mw_content, which is used
 						 for the margins -->
@@ -139,12 +139,12 @@ class ModernTemplate extends BaseTemplate {
 
 		<!-- footer -->
 		<div id="footer" class="mw-footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>
-			<ul id="f-list">
+			<ul id="footer-info">
 				<?php
 				foreach ( $this->getFooterLinks( "flat" ) as $aLink ) {
 					if ( isset( $this->data[$aLink] ) && $this->data[$aLink] ) {
 						?>
-						<li id="<?php echo $aLink ?>"><?php $this->html( $aLink ) ?></li>
+						<li id="footer-info-<?php echo $aLink ?>"><?php $this->html( $aLink ) ?></li>
 					<?php
 					}
 				}

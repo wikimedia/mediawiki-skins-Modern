@@ -111,7 +111,7 @@ body {
 	float: right;
 }
 
-#mw_content {
+#content {
 	margin: 0 0 0 14em;
 	background-color: #fff;
 	border-top: solid 1px #bbb;
@@ -366,85 +366,85 @@ h6 {
 	overflow: hidden;
 }
 
-#mw_content a.external {
+#content a.external {
 	/* @embed */
 	background: url( images/external.png ) center right no-repeat;
 	padding-right: 13px;
 }
 
-#mw_content a.external[ href^='https://' ],
+#content a.external[ href^='https://' ],
 .link-https {
 	/* @embed */
 	background: url( images/lock_icon.gif ) center right no-repeat;
 	padding-right: 16px;
 }
 
-#mw_content a.external[ href^='mailto:' ],
+#content a.external[ href^='mailto:' ],
 .link-mailto {
 	/* @embed */
 	background: url( images/mail_icon.gif ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[ href^='news:' ] {
+#content a.external[ href^='news:' ] {
 	/* @embed */
 	background: url( images/news_icon.png ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[ href^='ftp://' ],
+#content a.external[ href^='ftp://' ],
 .link-ftp {
 	/* @embed */
 	background: url( images/file_icon.gif ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[ href^='irc://' ],
-#mw_content a.external[ href^='ircs://' ],
+#content a.external[ href^='irc://' ],
+#content a.external[ href^='ircs://' ],
 .link-irc {
 	/* @embed */
 	background: url( images/discussionitem_icon.gif ) center right no-repeat;
 	padding-right: 18px;
 }
 
-#mw_content a.external[ href$='.ogg' ],
-#mw_content a.external[ href$='.OGG' ],
-#mw_content a.external[ href$='.mid' ],
-#mw_content a.external[ href$='.MID' ],
-#mw_content a.external[ href$='.midi' ],
-#mw_content a.external[ href$='.MIDI' ],
-#mw_content a.external[ href$='.mp3' ],
-#mw_content a.external[ href$='.MP3' ],
-#mw_content a.external[ href$='.wav' ],
-#mw_content a.external[ href$='.WAV' ],
-#mw_content a.external[ href$='.wma' ],
-#mw_content a.external[ href$='.WMA' ],
+#content a.external[ href$='.ogg' ],
+#content a.external[ href$='.OGG' ],
+#content a.external[ href$='.mid' ],
+#content a.external[ href$='.MID' ],
+#content a.external[ href$='.midi' ],
+#content a.external[ href$='.MIDI' ],
+#content a.external[ href$='.mp3' ],
+#content a.external[ href$='.MP3' ],
+#content a.external[ href$='.wav' ],
+#content a.external[ href$='.WAV' ],
+#content a.external[ href$='.wma' ],
+#content a.external[ href$='.WMA' ],
 .link-audio {
 	/* @embed */
 	background: url( images/audio.png ) center right no-repeat;
 	padding-right: 13px;
 }
 
-#mw_content a.external[ href$='.ogm' ],
-#mw_content a.external[ href$='.OGM' ],
-#mw_content a.external[ href$='.avi' ],
-#mw_content a.external[ href$='.AVI' ],
-#mw_content a.external[ href$='.mpeg' ],
-#mw_content a.external[ href$='.MPEG' ],
-#mw_content a.external[ href$='.mpg' ],
-#mw_content a.external[ href$='.MPG' ],
+#content a.external[ href$='.ogm' ],
+#content a.external[ href$='.OGM' ],
+#content a.external[ href$='.avi' ],
+#content a.external[ href$='.AVI' ],
+#content a.external[ href$='.mpeg' ],
+#content a.external[ href$='.MPEG' ],
+#content a.external[ href$='.mpg' ],
+#content a.external[ href$='.MPG' ],
 .link-video {
 	/* @embed */
 	background: url( images/video.png ) center right no-repeat;
 	padding-right: 13px;
 }
 
-#mw_content a.external[ href$='.pdf' ],
-#mw_content a.external[ href$='.PDF' ],
-#mw_content a.external[ href*='.pdf#' ],
-#mw_content a.external[ href*='.PDF#' ],
-#mw_content a.external[ href*='.pdf?' ],
-#mw_content a.external[ href*='.PDF?' ],
+#content a.external[ href$='.pdf' ],
+#content a.external[ href$='.PDF' ],
+#content a.external[ href*='.pdf#' ],
+#content a.external[ href*='.PDF#' ],
+#content a.external[ href*='.pdf?' ],
+#content a.external[ href*='.PDF?' ],
 .link-document {
 	/* @embed */
 	background: url( images/document.png ) center right no-repeat;
@@ -630,12 +630,12 @@ table.toc td {
 }
 
 /* disable interwiki styling */
-#mw_content a.extiw,
-#mw_content a.extiw:active {
+#content a.extiw,
+#content a.extiw:active {
 	color: #36b;
 }
 
-#mw_content a.external {
+#content a.external {
 	color: #36b;
 }
 
@@ -848,9 +848,27 @@ pre,
 	padding: 0;
 }
 
-/* Tooltips are outside of the normal body code, so this helps make the size of the text sensible */
-.tipsy {
+/* Tooltips and OOUI windows are outside of the normal body code, so this helps
+make the size of the text sensible */
+.tipsy,
+.oo-ui-windowManager {
 	font-size: 130%;
+}
+
+/* Codemirror for visual editor doesn't need padding */
+.ve-init-mw-desktopArticleTarget .CodeMirror {
+	padding: 0 !important;
+}
+
+/* Header is absolute so body can't need to be relative */
+.oo-ui-windowManager-modal-active {
+	position: static !important;
+}
+
+/* Visual editor toolbar should be a wide as the body, including padding */
+.ve-ui-toolbar {
+	margin-left: -1em;
+	margin-right: -0.5em;
 }
 
 /**
