@@ -183,12 +183,6 @@ class ModernTemplate extends BaseTemplate {
 		if ( !isset( $sidebar['SEARCH'] ) ) {
 			$sidebar['SEARCH'] = true;
 		}
-		if ( !isset( $sidebar['TOOLBOX'] ) ) {
-			$sidebar['TOOLBOX'] = true;
-		}
-		if ( !isset( $sidebar['LANGUAGES'] ) ) {
-			$sidebar['LANGUAGES'] = true;
-		}
 
 		foreach ( $sidebar as $boxName => $content ) {
 			if ( $content === false ) {
@@ -201,9 +195,9 @@ class ModernTemplate extends BaseTemplate {
 			if ( $boxName == 'SEARCH' ) {
 				$this->searchBox();
 			} elseif ( $boxName == 'TOOLBOX' ) {
-				$this->toolbox();
+				$this->toolbox( $content );
 			} elseif ( $boxName == 'LANGUAGES' ) {
-				$this->languageBox();
+				$this->languageBox( $content );
 			} else {
 				$this->customBox( $boxName, $content );
 			}
@@ -275,8 +269,9 @@ class ModernTemplate extends BaseTemplate {
 
 	/**
 	 * Prints the toolbox
+	 * @param array $content Toolbox items
 	 */
-	private function toolbox() {
+	private function toolbox( $content ) {
 		?>
 		<div class="portlet" id="p-tb" role="navigation">
 			<h3><?php $this->msg( 'toolbox' ) ?></h3>
@@ -284,7 +279,7 @@ class ModernTemplate extends BaseTemplate {
 			<div class="pBody">
 				<ul>
 					<?php
-					foreach ( $this->getToolbox() as $key => $tbitem ) {
+					foreach ( $content as $key => $tbitem ) {
 						?>
 						<?php echo $this->makeListItem( $key, $tbitem ); ?>
 
@@ -305,16 +300,18 @@ class ModernTemplate extends BaseTemplate {
 
 	/**
 	 * Prints the other languages box
+	 * @param array $languages
 	 */
-	private function languageBox() {
-		if ( $this->data['language_urls'] !== false ) {
+	private function languageBox( $languages ) {
+		$afterPortletLink = $this->getAfterPortlet( 'lang' );
+		if ( $languages !== [] || $afterPortletLink !== '' ) {
 			?>
 			<div id="p-lang" class="portlet" role="navigation">
 				<h3<?php $this->html( 'userlangattributes' ) ?>><?php $this->msg( 'otherlanguages' ) ?></h3>
 
 				<div class="pBody">
 					<ul>
-						<?php foreach ( $this->data['language_urls'] as $key => $langLink ) { ?>
+						<?php foreach ( $languages as $key => $langLink ) { ?>
 							<?php echo $this->makeListItem( $key, $langLink ); ?>
 
 						<?php
@@ -322,7 +319,7 @@ class ModernTemplate extends BaseTemplate {
 						?>
 					</ul>
 
-					<?php $this->renderAfterPortlet( 'lang' ); ?>
+					<?php echo $afterPortletLink; ?>
 				</div>
 			</div>
 		<?php
