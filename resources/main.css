@@ -717,7 +717,7 @@ table.multipageimage td {
 	margin: 0.1em 0;
 }
 
-/* Friendlier slave lag warnings */
+/* Friendlier replica lag warnings */
 div.mw-lag-warn-normal,
 div.mw-lag-warn-high {
 	padding: 3px;
