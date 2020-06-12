@@ -285,9 +285,6 @@ class ModernTemplate extends BaseTemplate {
 
 					<?php
 					}
-					// Avoid PHP 7.1 warnings
-					$skin = $this;
-					Hooks::run( 'MonoBookTemplateToolboxEnd', [ &$skin ] );
 					?>
 				</ul>
 				<?php $this->renderAfterPortlet( 'tb' ); ?>
