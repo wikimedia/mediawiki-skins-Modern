@@ -291,7 +291,6 @@ class ModernTemplate extends BaseTemplate {
 			</div>
 		</div>
 	<?php
-		Hooks::run( 'MonoBookAfterToolbox' );
 	}
 
 	/**
