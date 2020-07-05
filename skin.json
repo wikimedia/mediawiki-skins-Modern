@@ -46,7 +46,7 @@
 		"modern": {
 			"+oojs-ui-core.styles": "skinStyles/ooui.less",
 			"+mediawiki.action.view.redirectPage": "skinStyles/mediawiki.action.view.redirectPage.css",
-			"+ext.echo.styles.badge": "skinStyles/ext.echo.styles.badge.css"
+			"+ext.echo.styles.badge": "skinStyles/ext.echo.styles.badge.less"
 		}
 	},
 	"manifest_version": 2
