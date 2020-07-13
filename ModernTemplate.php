@@ -215,30 +215,18 @@ class ModernTemplate extends BaseTemplate {
 			<div id="searchBody" class="pBody">
 				<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
 					<input type="hidden" name="title" value="<?php $this->text( 'searchtitle' ) ?>"/>
-					<?php echo $this->makeSearchInput( [ 'id' => 'searchInput' ] ); ?>
-
-					<?php
-					echo $this->makeSearchButton(
-						'go',
-						[ 'id' => 'searchGoButton', 'class' => 'searchButton' ]
-					);
-
-					if ( $this->config->get( 'UseTwoButtonsSearchForm' ) ) {
-						?>&#160;
-						<?php echo $this->makeSearchButton(
-							'fulltext',
-							[ 'id' => 'mw-searchButton', 'class' => 'searchButton' ]
+					<?php echo $this->makeSearchInput( [ 'id' => 'searchInput' ] );
+						echo $this->makeSearchButton(
+							'go',
+							[ 'id' => 'searchGoButton', 'class' => 'searchButton' ]
 						);
-					} else {
-						?>
 
-						<div><a href="<?php
-						$this->text( 'searchaction' )
-						?>" rel="search"><?php $this->msg( 'powersearch-legend' ) ?></a></div><?php
-					} ?>
-
+						echo '&#160;' . $this->makeSearchButton(
+								'fulltext',
+								[ 'id' => 'mw-searchButton', 'class' => 'searchButton' ]
+						);
+					?>
 				</form>
-
 				<?php $this->renderAfterPortlet( 'search' ); ?>
 			</div>
 		</div>
