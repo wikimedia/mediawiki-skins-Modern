@@ -218,7 +218,7 @@ class ModernTemplate extends BaseTemplate {
 					<?php echo $this->makeSearchInput( [ 'id' => 'searchInput' ] );
 						echo $this->makeSearchButton(
 							'go',
-							[ 'id' => 'searchGoButton', 'class' => 'searchButton' ]
+							[ 'id' => 'searchButton', 'class' => 'searchButton' ]
 						);
 
 						echo '&#160;' . $this->makeSearchButton(
