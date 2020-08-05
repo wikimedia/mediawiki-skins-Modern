@@ -21,19 +21,9 @@
  */
 
 /**
- * Inherit main code from SkinTemplate, set the CSS and template filter.
- * @todo document
+ * Inherit main code from SkinTemplate
  * @ingroup Skins
  */
 class SkinModern extends SkinTemplate {
-	public $skinname = 'modern';
 	public $template = 'ModernTemplate';
-
-	/**
-	 * @param OutputPage $out
-	 */
-	public function setupSkinUserCss( OutputPage $out ) {
-		parent::setupSkinUserCss( $out );
-		$out->addModuleStyles( 'skins.modern' );
-	}
 }
