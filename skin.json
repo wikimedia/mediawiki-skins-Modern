@@ -13,16 +13,16 @@
 		"MediaWiki": ">= 1.30.0"
 	},
 	"ValidSkinNames": {
-        "modern": {
-            "class": "SkinModern",
-            "args": [
-                {
-                    "name": "modern",
-                    "styles": [ "skins.modern" ]
-                }
+		"modern": {
+			"class": "SkinModern",
+			"args": [
+				{
+					"name": "modern",
+					"styles": [ "skins.modern" ]
+				}
 			]
-        }
-    },
+		}
+	},
 	"MessagesDirs": {
 		"Modern": [
 			"i18n"
