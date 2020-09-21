@@ -10,7 +10,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"requires": {
-		"MediaWiki": ">= 1.30.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"ValidSkinNames": {
 		"modern": {
@@ -31,7 +31,9 @@
 	"ResourceModules": {
 		"skins.modern": {
 			"class": "ResourceLoaderSkinModule",
-			"features": [ "legacy" ],
+			"features": {
+				"legacy": true
+			},
 			"styles": {
 				"resources/main.css": {
 					"media": "screen"
