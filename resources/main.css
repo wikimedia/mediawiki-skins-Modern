@@ -34,10 +34,7 @@ body {
 }
 
 .mw-indicator {
-	display: -moz-inline-block;
 	display: inline-block;
-	zoom: 1;
-	*display: inline; /* stylelint-disable-line declaration-block-no-duplicate-properties */
 }
 
 #mw_header h1 {
@@ -543,13 +540,7 @@ img.thumbborder {
 	border-spacing: 0;
 	background-color: #f0f0f0;
 	border: solid 1px #bbb;
-	display: -moz-inline-block;
-	display: inline-block;
 	display: table;
-
-	/* IE7 and earliers */
-	zoom: 1;
-	*display: inline; /* stylelint-disable-line declaration-block-no-duplicate-properties */
 }
 
 /* CSS for backwards-compatibility with cached page renders and creative uses in wikitext */
