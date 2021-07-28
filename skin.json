@@ -45,7 +45,14 @@
 		"skins.modern": {
 			"class": "ResourceLoaderSkinModule",
 			"features": {
-				"legacy": true
+				"content-links": true,
+				"content-thumbnails": true,
+				"interface-message-box": true,
+				"interface-category": true,
+				"content-tables": true,
+				"i18n-ordered-lists": true,
+				"i18n-all-lists-margins": true,
+				"i18n-headings": true
 			},
 			"styles": {
 				"resources/main.css": {
