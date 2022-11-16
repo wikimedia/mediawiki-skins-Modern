@@ -351,11 +351,18 @@ a.mw-selflink {
 	text-decoration: inherit;
 }
 
+.mw-heading {
+	margin: 1.2em 0;
+}
+
+.mw-heading1,
 h1,
+.mw-heading2,
 h2 {
 	border-bottom: solid 1px #036;
 }
 
+.mw-heading,
 h1,
 h2,
 h3,
@@ -363,6 +370,20 @@ h4,
 h5,
 h6 {
 	overflow: hidden;
+}
+
+/* Override the styles above for `hN` nested inside `.mw-heading`, as used on wikitext pages. */
+.mw-heading h1,
+.mw-heading h2,
+.mw-heading h3,
+.mw-heading h4,
+.mw-heading h5,
+.mw-heading h6 {
+	overflow: visible;
+	/* Must be inline to allow `.mw-editsection` to be shown on the same line */
+	display: inline;
+	margin: 0;
+	border: 0;
 }
 
 .mw-parser-output a.external {
