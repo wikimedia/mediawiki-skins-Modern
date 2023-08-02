@@ -172,6 +172,7 @@ textarea {
 	margin-top: 0.4em;
 }
 
+.mw-portlet > label,
 .portlet h3 {
 	padding: 0.1em 0 0.3em 1em;
 	margin: 0 0 0 0;
@@ -180,6 +181,7 @@ textarea {
 	font-size: 0.83em;
 	border-bottom: solid 1px #3c78b5;
 	height: 1.1em;
+	display: block;
 }
 
 .portlet ul {
