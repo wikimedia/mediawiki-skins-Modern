@@ -843,10 +843,9 @@ pre,
 	padding: 0;
 }
 
-/* Tooltips and OOUI windows are outside of the normal body code, so this helps
+/* Tooltips are outside of the normal body code, so this helps
 make the size of the text sensible */
-.tipsy,
-.oo-ui-windowManager {
+.tipsy {
 	font-size: 130%;
 }
 
