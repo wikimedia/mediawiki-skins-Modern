@@ -72,6 +72,7 @@
 	"ResourceModuleSkinStyles": {
 		"modern": {
 			"+mediawiki.page.ready": "skinStyles/teleportTarget.less",
+			"+oojs-ui-core.styles": "skinStyles/ooui.less",
 			"+mediawiki.action.view.redirectPage": "skinStyles/mediawiki.action.view.redirectPage.css",
 			"+mediawiki.notification": "skinStyles/mediawiki.notification.less",
 			"+ext.echo.styles.badge": "skinStyles/ext.echo.styles.badge.less"
