@@ -44,7 +44,7 @@
 	},
 	"ResourceModules": {
 		"skins.modern": {
-			"class": "ResourceLoaderSkinModule",
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
 			"features": {
 				"content-links": true,
 				"content-media": true,
