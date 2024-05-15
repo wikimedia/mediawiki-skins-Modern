@@ -18,6 +18,7 @@
 			"args": [
 				{
 					"name": "modern",
+					"supportsMwHeading": true,
 					"scripts": [],
 					"styles": [
 						"skins.modern"
