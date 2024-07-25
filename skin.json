@@ -52,8 +52,8 @@
 				"interface-message-box": true,
 				"interface-category": true,
 				"content-tables": true,
+				"elements": true,
 				"i18n-ordered-lists": true,
-				"i18n-all-lists-margins": true,
 				"i18n-headings": true
 			},
 			"styles": {
