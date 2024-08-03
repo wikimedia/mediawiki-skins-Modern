@@ -761,10 +761,14 @@ div.mw-lag-warn-high {
 	font-size: 90%;
 }
 
+/* Copied from mediawiki.skinning/elements.less: */
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
 ul {
 	line-height: 1.5em;
 	list-style-type: square;
-	margin: 0.3em 0 0 1.5em;
+	margin: 0.3em 0 0 1.6em;
+	margin-inline-start: 1.6em;
+	margin-inline-end: 0;
 	padding: 0;
 	/* @embed */
 	list-style-image: url( images/bullet.gif );
@@ -773,9 +777,20 @@ ul {
 ol {
 	line-height: 1.5em;
 	margin: 0.3em 0 0 3.2em;
+	margin-inline-start: 3.2em;
+	margin-inline-end: 0;
 	padding: 0;
 	list-style-image: none;
 }
+
+dd {
+	margin-left: 1.6em;
+	margin-right: 0;
+	margin-inline-start: 1.6em;
+	margin-inline-end: 0;
+	margin-bottom: 0.1em;
+}
+/* stylelint-enable declaration-block-no-redundant-longhand-properties */
 
 li {
 	margin-bottom: 0.1em;
