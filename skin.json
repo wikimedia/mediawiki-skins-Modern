@@ -49,7 +49,6 @@
 			"features": {
 				"content-links": true,
 				"content-media": true,
-				"interface-message-box": true,
 				"interface-category": true,
 				"interface-edit-section-links": true,
 				"content-tables": true,
