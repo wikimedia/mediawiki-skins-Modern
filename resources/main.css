@@ -153,8 +153,6 @@ textarea {
 	width: 100%;
 	padding: 0.1em;
 	display: block;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
