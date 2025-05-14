@@ -10,7 +10,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"requires": {
-		"MediaWiki": ">= 1.44"
+		"MediaWiki": ">= 1.45"
 	},
 	"ValidSkinNames": {
 		"modern": {
@@ -18,7 +18,6 @@
 			"args": [
 				{
 					"name": "modern",
-					"supportsMwHeading": true,
 					"scripts": [],
 					"styles": [
 						"skins.modern"
