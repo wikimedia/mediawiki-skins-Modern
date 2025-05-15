@@ -5,11 +5,12 @@
 			"Omotecho",
 			"しぃ",
 			"青子守歌",
-			"Yaakiyu.jp"
+			"Yaakiyu.jp",
+			"Foomin10"
 		]
 	},
 	"skinname-modern": "モダン",
 	"modern.css": "/* ここに記述したCSSは、全てのモダンスキン利用者に読み込まれます */",
 	"modern.js": "/* ここに記述したJavaScriptは、全てのモダンスキン利用者に読み込まれます */",
-	"modern-desc": "サイドバーとトップバーのある、青とグレーのスキン。モノブックからの派生。"
+	"modern-desc": "サイドバーとトップバーのある、青とグレーの外装。モノブックからの派生。"
 }
