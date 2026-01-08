@@ -22,6 +22,16 @@
 					"styles": [
 						"skins.modern"
 					],
+					"menus": [
+						"user-menu",
+						"personal",
+						"notifications",
+						"user-interface-preferences",
+						"user-page",
+						"associated-pages",
+						"views",
+						"actions"
+					],
 					"messages": [
 						"navigation-heading",
 						"comma-separator",

@@ -16,7 +16,7 @@
 			<div class="pBody">
 				{{#data-portlets}}
 					<ul>
-						{{#data-namespaces}}{{{html-items}}}{{/data-namespaces}}
+						{{#data-associated-pages}}{{{html-items}}}{{/data-associated-pages}}
 						{{#data-views}}{{{html-items}}}{{/data-views}}
 						{{#data-actions}}{{{html-items}}}{{/data-actions}}
 					</ul>
@@ -84,9 +84,18 @@
 
 	<div class="pBody">
 		<ul>
-			{{#data-portlets.data-personal}}
+			{{#data-portlets.data-user-interface-preferences}}
 			{{{html-items}}}
-			{{/data-portlets.data-personal}}
+			{{/data-portlets.data-user-interface-preferences}}
+			{{#data-portlets.data-user-page}}
+			{{{html-items}}}
+			{{/data-portlets.data-user-page}}
+			{{#data-portlets.data-notifications}}
+			{{{html-items}}}
+			{{/data-portlets.data-notifications}}
+			{{#data-portlets.data-user-menu}}
+			{{{html-items}}}
+			{{/data-portlets.data-user-menu}}
 		</ul>
 	</div>
 </div>
