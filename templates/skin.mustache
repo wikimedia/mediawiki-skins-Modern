@@ -1,4 +1,4 @@
-<!-- heading -->
+{{! heading }}
 <div id="mw_header">
 	<div class="mw-indicators">
 		{{#array-indicators}}
@@ -10,7 +10,7 @@
 
 <div id="mw_main">
 	<div id="mw_contentwrapper">
-		<!-- navigation portlet -->
+		{{! navigation portlet }}
 		<div id="p-cactions" class="portlet" role="navigation">
 			<h3>{{msg-views}}</h3>
 			<div class="pBody">
@@ -24,11 +24,11 @@
 			</div>
 		</div>
 
-		<!-- content -->
+		{{! content }}
 		<div id="content" role="main">
-			<!-- contentholder does nothing by default, but it allows users to style the text inside
+			{{! contentholder does nothing by default, but it allows users to style the text inside
 				the content area without affecting the meaning of 'em' in #mw_content, which is used
-				for the margins -->
+				for the margins }}
 			<div id="mw_contentholder" class="mw-body">
 				<div class='mw-topboxes'>
 					<div class="mw-topbox" id="siteSub">{{msg-tagline}}</div>
@@ -45,14 +45,14 @@
 
 				{{{html-body-content}}}
 				{{{html-categories}}}{{{html-after-content}}}
-			</div><!-- mw_contentholder -->
-		</div><!-- mw_content -->
-	</div><!-- mw_contentwrapper -->
+			</div>{{! mw_contentholder }}
+		</div>{{! mw_content }}
+	</div>{{! mw_contentwrapper }}
 
 	<div id="mw_portlets" {{{html-user-language-attributes}}}>
 		<h2>{{msg-navigation-heading}}</h2>
 
-		<!-- portlets -->
+		{{! portlets }}
 		{{#data-portlets-sidebar}}
 			{{#data-portlets-first}}{{>Portlet}}{{/data-portlets-first}}
 		{{/data-portlets-sidebar}}
@@ -76,9 +76,9 @@
 			{{/array-portlets-rest}}
 		{{/data-portlets-sidebar}}
 		{{#data-portlets.data-languages}}{{>Portlet}}{{/data-portlets.data-languages}}
-	</div><!-- mw_portlets -->
-</div><!-- main -->
-<!-- personal portlet -->
+	</div>{{! mw_portlets }}
+</div>{{! main }}
+{{! personal portlet }}
 <div class="portlet" id="p-personal" role="navigation">
 	<h3>{{msg-personaltools}}</h3>
 
@@ -100,7 +100,7 @@
 	</div>
 </div>
 
-<!-- footer -->
+{{! footer }}
 <div id="footer" class="mw-footer" role="contentinfo" {{{html-user-language-attributes}}}>
 	{{#data-footer}}
 		<ul id="footer-info">
