@@ -24,7 +24,6 @@
 					],
 					"menus": [
 						"user-menu",
-						"personal",
 						"notifications",
 						"user-interface-preferences",
 						"user-page",
