@@ -102,15 +102,13 @@
 
 {{! footer }}
 <div id="footer" class="mw-footer" role="contentinfo" {{{html-user-language-attributes}}}>
-	{{#data-footer}}
-		<ul id="footer-info">
-			{{#data-info}}{{>Footer__row}}{{/data-info}}
-			{{#data-places}}{{>Footer__row}}{{/data-places}}
-		</ul>
-		{{#data-icons}}
-			{{#array-items}}
-				<div id="{{id}}">{{{html}}}</div>
-			{{/array-items}}
-		{{/data-icons}}
-	{{/data-footer}}
+	<ul id="footer-info">
+		{{#data-portlets.data-footer-info}}{{>Footer__row}}{{/data-portlets.data-footer-info}}
+		{{#data-portlets.data-footer-places}}{{>Footer__row}}{{/data-portlets.data-footer-places}}
+	</ul>
+	{{#data-portlets.data-footer-icons}}
+		{{#array-items}}
+			<div id="{{id}}">{{{html}}}</div>
+		{{/array-items}}
+	{{/data-portlets.data-footer-icons}}
 </div>

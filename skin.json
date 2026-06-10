@@ -29,7 +29,10 @@
 						"user-page",
 						"associated-pages",
 						"views",
-						"actions"
+						"actions",
+						"footer-info",
+						"footer-places",
+						"footer-icons"
 					],
 					"messages": [
 						"navigation-heading",
